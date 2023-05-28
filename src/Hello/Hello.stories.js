@@ -6,4 +6,4 @@ export default {
 };
 
 export const standard = () => <Hello name="Storybook" />;
-export const big = () => <Hello name="Storybook" />;
+export const big = () => <Hello name="Storybook" big />;
