@@ -1,14 +1,13 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
+/** @type { import('@storybook/nextjs').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
-  staticDirs: ["../public"],
+  stories: ["../stories/**/*.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: "@storybook/nextjs",
     options: {},
   },
   docs: {
