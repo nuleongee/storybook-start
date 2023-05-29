@@ -1,6 +1,6 @@
-import React from 'react';
+import { withKnobs, boolean, text } from '@storybook/addon-knobs';
+
 import Hello from './Hello';
-import { withKnobs, text, boolean } from '@storybook/addon-knobs';
 
 export default {
   title: 'components|basic/Hello', // 스토리북에서 보여질 그룹과 경로를 명시
@@ -17,6 +17,5 @@ export const hello = () => {
 hello.story = {
   name: 'Default',
 };
-
 export const standard = () => <Hello name="Storybook" />;
 export const big = () => <Hello name="Storybook" big />;
