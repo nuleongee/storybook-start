@@ -1,4 +1,4 @@
-import Hello from './Hello';
+import Hello from './Hello.js';
 
 export default {
   title: 'components|basic/Hello', // 스토리북에서 보여질 그룹과 경로를 명시
