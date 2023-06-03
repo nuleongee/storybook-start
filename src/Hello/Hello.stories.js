@@ -1,4 +1,6 @@
-import Hello from './Hello.js';
+import React from 'react';
+
+import Hello from './Hello';
 
 export default {
   title: 'components|basic/Hello', // 스토리북에서 보여질 그룹과 경로를 명시
